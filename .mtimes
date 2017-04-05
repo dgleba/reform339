@@ -20,7 +20,6 @@
 1491359210|app/assets/stylesheets/users.scss
 1491099061|app/channels/application_cable/channel.rb
 1491099061|app/channels/application_cable/connection.rb
-1491359204|app/controllers/albums_controller.rb
 1491099061|app/controllers/application_controller.rb
 1491099061|app/controllers/concerns/.keep
 1491359205|app/controllers/profiles_controller.rb
@@ -36,19 +35,13 @@
 1491359209|app/helpers/users_helper.rb
 1491099061|app/jobs/application_job.rb
 1491099061|app/mailers/application_mailer.rb
-1491359204|app/models/album.rb
 1491099061|app/models/application_record.rb
 1491099061|app/models/concerns/.keep
 1491359205|app/models/profile.rb
 1491359207|app/models/song.rb
 1491359209|app/models/user.rb
 1491359204|app/views/albums/_album.json.jbuilder
-1491359204|app/views/albums/_form.html.erb
-1491359204|app/views/albums/edit.html.erb
-1491359204|app/views/albums/index.html.erb
 1491359204|app/views/albums/index.json.jbuilder
-1491359204|app/views/albums/new.html.erb
-1491359204|app/views/albums/show.html.erb
 1491359204|app/views/albums/show.json.jbuilder
 1491099061|app/views/layouts/application.html.erb
 1491099061|app/views/layouts/mailer.html.erb
@@ -146,3 +139,12 @@
 1491099062|tmp/.keep
 1491099062|vendor/assets/javascripts/.keep
 1491099062|vendor/assets/stylesheets/.keep
+1491359204|app/controllers/albums_controller - Copy__2017-04-04_22.54.35.rb
+1491360921|app/controllers/albums_controller.rb
+1491361010|app/models/album.rb
+1491177228|app/views/albums/_form.html.erb
+1491359204|app/views/albums/_form.html__2017-04-04_22.52.20.erb
+1491177228|app/views/albums/edit.html.erb
+1491177228|app/views/albums/index.html.erb
+1491177228|app/views/albums/new.html.erb
+1491177228|app/views/albums/show.html.erb

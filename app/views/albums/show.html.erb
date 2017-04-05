@@ -1,9 +1,23 @@
-<p id="notice"><%= notice %></p>
+<h2>Ablums and Songs</h2>
 
-<p>
-  <strong>Title:</strong>
-  <%= @album.title %>
-</p>
+<h4>1-n Example</h4>
 
-<%= link_to 'Edit', edit_album_path(@album) %> |
-<%= link_to 'Back', albums_path %>
+<h3>Album:</h3>
+<%= @album.inspect %>
+
+<% if @album.songs.any? %>
+  <h3>Songs: </h3>
+  <ul>
+    <% @album.songs.each do |song| %>
+      <li>
+        <%= song.inspect %>
+      </li>
+    <% end %>
+  </ul>
+<% end %>
+
+<br />
+
+<%= link_to "Edit Album", edit_album_path(@album), class: 'btn'  %>
+<br />
+<%= link_to "Back to Albums", albums_path, class: 'btn'  %>
