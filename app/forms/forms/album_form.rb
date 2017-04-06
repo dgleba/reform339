@@ -7,6 +7,7 @@ module Forms
 
     collection :songs do
       property :name
+      property :issue
       validates :name, presence: true
     end
 

@@ -25,7 +25,6 @@
 1491359205|app/controllers/profiles_controller.rb
 1491359207|app/controllers/songs_controller.rb
 1491359209|app/controllers/users_controller.rb
-1491177228|app/forms/forms/album_form.rb
 1491177228|app/forms/forms/user_form.rb
 1491177228|app/forms/workflows/user_workflow.rb
 1491359204|app/helpers/albums_helper.rb
@@ -104,7 +103,6 @@
 1491359205|db/migrate/20170405022654_create_profiles.rb
 1491359207|db/migrate/20170405022655_create_songs.rb
 1491359209|db/migrate/20170405022657_create_users.rb
-1491359221|db/schema.rb
 1491099061|db/seeds.rb
 1491099061|lib/assets/.keep
 1491099061|lib/tasks/.keep
@@ -142,9 +140,13 @@
 1491359204|app/controllers/albums_controller - Copy__2017-04-04_22.54.35.rb
 1491360921|app/controllers/albums_controller.rb
 1491361010|app/models/album.rb
-1491177228|app/views/albums/_form.html.erb
 1491359204|app/views/albums/_form.html__2017-04-04_22.52.20.erb
 1491177228|app/views/albums/edit.html.erb
 1491177228|app/views/albums/index.html.erb
 1491177228|app/views/albums/new.html.erb
 1491177228|app/views/albums/show.html.erb
+1491437649|app/forms/forms/album_form.rb
+1491437782|app/views/albums/_form.html.erb
+1491436699|db/migrate/20170226225818_add_issue_action_to_songs.rb
+1491436794|db/schema.rb
+1491433170|reform339,reform_example.txt

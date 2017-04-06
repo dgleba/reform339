@@ -33,6 +33,8 @@ ActiveRecord::Schema.define(version: 20170405022657) do
     t.integer  "album_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string   "issue"
+    t.text     "action"
     t.index ["album_id"], name: "index_songs_on_album_id"
   end
 

@@ -1,0 +1,41 @@
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Title:  .
+-----------------------2017-04-02[Apr-Sun]19-58PM
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Title:  .
+-----------------------2017-04-02[Apr-Sun]21-38PM
+
+cript for scaffold:
+
+rails generate scaffold Album title:string --no-migration
+
+rails generate scaffold Profile locale:string email:string age:integer user:references --no-migration
+
+rails generate scaffold Song name:string album:references --no-migration
+
+rails generate scaffold User first_name:string last_name:string --no-migration
+
+albe@v206x20161030220807:~/share203/dgreform$ 
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Title:  .
+-----------------------2017-04-04[Apr-Tue]22-25PM
+
+rails generate scaffold Album title:string  
+
+rails generate scaffold Profile locale:string email:string age:integer user:references  
+
+rails generate scaffold Song name:string album:references  
+
+rails generate scaffold User first_name:string last_name:string  
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
